@@ -1,0 +1,165 @@
+@font-face {
+  font-family: ImportedComoBold;
+  src: url(./Fonts//Como-Bold.ttf);
+  
+}
+
+@media (orientation: portrait) {
+    body{
+        /* background-color:  #B599D4; */
+        background-color:  #d7c1f1;
+    }
+    .mainDiv{
+        height:fit-content;
+    }
+    .line1 {
+        height: 35px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0),#4b4040);
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0);
+        position: fixed;
+        /* position:sticky ;top:1; */
+        top: 0%;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+
+    .line {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px 8px #888888;
+      }
+.box1{
+    /* background-color: yellow; */
+    /* background-color:  #B599D4; */
+    background-color:  #d7c1f1;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box2{
+    
+    background-color: black;
+    width:92%;
+    height:32em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+.image{
+    /* width: 93%; */
+    border-radius: 10px;
+    height: 32em;
+    background-color: white;
+    
+}
+.logo{
+    color:white
+}
+.boxLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topright {
+    position: fixed;
+    top: 8px;
+    right: 16px;
+    
+  }
+  .textDiv{
+    /* background-color:  #B599D4; */
+    background-color:  #d7c1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+  }
+  .line_11{
+    color:#673a9b;
+    font-family: ImportedComoBold;
+    
+  }
+  .line_1{
+    color:black;
+    
+  }
+  .line_grey{
+    color:grey;
+    
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color:  #B599D4; */
+    background-color:  #d7c1f1;
+    height:11em
+  }
+  .socialApps{
+    /* background-color:  #B599D4; */
+    background-color:  #d7c1f1;
+    /* background-color: red; */
+    border:1px solid grey;
+    /* margin-top: 20px; */
+    width:100%;
+    height:3.5em;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .css-11vzsv8{
+    border: 2px grey;
+  }
+  .s1{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:45%;
+  }
+  .rights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #673a9b;
+  }
+
+  
+  .downloadButtons{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    /* margin-top: 30px; */
+  }
+  .apple{
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+   width:44%;
+   border-radius: 10px;
+   background-color: black;
+   height:4em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+  }
+  .text1 {
+    font-size: 17px;
+    text-transform: capitalize;
+    
+   }
+
+}
